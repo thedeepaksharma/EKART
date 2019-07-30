@@ -1,0 +1,20 @@
+ <xml id="myBiz" style="display: none;">
+ <companynames>
+ 
+  <companyname>
+    <name>Satish B</name>
+    <phone type="home" primary="call me">(91) 9844552841</phone>
+    <phone type="work">(91) 9844119841</phone>
+    <email>satish@technotip.org</email>
+    <company>Technotip IT Solutions</company>
+  </companyname>
+ 
+  <companyname>
+    <name>Shwetha</name>
+    <phone type="home">(91) 123456789</phone>
+    <phone type="work" primary="call me">(91) 987654321</phone>
+    <email>shwetha@microsoft.com</email>
+    <company>Microsoft</company>
+  </companyname>
+ 
+</companynames>

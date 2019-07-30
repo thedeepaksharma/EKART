@@ -1,0 +1,188 @@
+body {
+  background-color: MediumSlateBlue;
+  
+}
+p {
+  font-family: Verdana;
+  text-align: center;
+  font-size: 30px;
+}
+h1 {
+  color: red;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+form {
+  font-size: 25px;
+  text-align: center;
+}
+body {
+  background-image: url("ami.jpg");
+}
+
+/*
+ul1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+}
+li1 {
+  float: right;
+  border-left:1px solid #bbb;
+}
+li1 a {
+  display: block;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+li1 a:hover {
+  background-color: rgb(168, 121, 121);
+}
+li1 a:hover:not(.active) {
+  background-color: #111;
+}
+*/
+
+/*
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #dddddd;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  padding: 14px 16px;
+  color: rgb(30, 6, 117);
+  text-decoration: none;
+  text-align: center;
+}
+li a:hover {
+  background-color: rgb(168, 121, 121);
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+*/
+
+
+
+
+
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav{
+  
+  margin: 0;
+  overflow:hidden;
+  text-align: center;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  float: right;
+  list-style-type: none;
+}
+
+nav > ul > li > a{
+  color: #aaa;
+  display: block;
+  line-height: 2em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+nav > ul > ul {
+  color: rgb(187, 16, 16);
+  line-height: 2em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  margin: 1px auto;
+
+  display: inline-block;
+}
+nav > ul > strong {
+  float: left;
+  color: aliceblue;
+  position: relative;
+  margin: 2px 0px 0px 60px;
+}
+
+
+.logo-img{
+  float: left;
+  position: fixed;
+  margin: 0px 0px 0px 0px;
+}
+.bg-div{
+ background:#333;
+ overflow: hidden;
+}
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.main {
+  padding: 15px;
+  margin-bottom: 30px;
+}

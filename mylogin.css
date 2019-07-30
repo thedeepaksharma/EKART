@@ -1,0 +1,48 @@
+.formkastyle{
+	display: inline-block;
+}
+.form{	
+	margin: auto;
+	background-color: #4f5650;
+	margin-top: 50px;
+	margin-left: 550px;
+	width: 25%;
+	border: 3px solid rgb(1, 61, 1);
+	border-radius: 10px;
+	padding: 30px;
+	text-align: center;
+	font-size: 25px;
+}
+form > P{
+	font-size: 35px;
+	color: red;
+	text-align: center;
+}
+P{
+	font-size: 18px;
+	color: red;
+	text-align: center;
+}
+h1{
+	font-size: 40px;
+	text-align: center;
+}
+#signupbtn{
+	border-radius: 5px;
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0%;
+	display: block;
+    background-color: #5f84bf;
+
+}
+#loginbtn{
+	border-radius: 5px;
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0%;
+	display: block;
+    background-color: #5f84bf;
+}

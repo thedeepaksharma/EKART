@@ -1,0 +1,75 @@
+<html>
+ <head><title>Our Business Card!</title>
+ 
+  <script language="javascript" type="text/javascript">
+ 
+  function display1() {
+ 
+   var base    = document.getElementById("myBiz");
+   var person1 = base.getElementsByTagName("companyName")[0];
+   var name = "Name: " + person1.getElementsByTagName("Name")[0].firstChild.data;
+   var phLable1 = person1.getElementsByTagName("phone")[0].getAttribute("type") + ": ";
+   var phone1 = phLable1 + person1.getElementsByTagName("phone")[0].firstChild.data;
+   var phLable2 = person1.getElementsByTagName("phone")[1].getAttribute("type") + ": ";
+   var phone2 = phLable2 + person1.getElementsByTagName("phone")[1].firstChild.data;
+   var email = "email: " + person1.getElementsByTagName("email")[0].firstChild.data;
+   var company;
+   comanyy = "Company: " + person1.getElementsByTagName("company")[0].firstChild.data;
+ 
+   alert("Business Card: \n\n" + name + "\n" + phone1 + "\n" 
+            + phone2 + "\n" + email + "\n" + company);
+  }
+ 
+ 
+ function display2() {
+ 
+   var base = document.getElementById("myBiz");
+   var person2 = base.getElementsByTagName("companyName")[1];
+   var name = "Name: " + person2.getElementsByTagName("Name")[0].firstChild.data;
+   var phLable1 = person2.getElementsByTagName("phone")[0].getAttribute("type") + ": ";
+   var phone1 = phLable1 + person2.getElementsByTagName("phone")[0].firstChild.data;
+   var phLable2 = person1.getElementsByTagName("phone")[1].getAttribute("type") + ": ";
+   var phone2 = phLable2 + person2.getElementsByTagName("phone")[1].firstChild.data;
+   var email = "email: " + person2.getElementsByTagName("email")[0].firstChild.data;
+   var company;
+   comapany = "Company: " + person2.getElementsByTagName("company")[0].firstChild.data;
+ 
+   alert("Business Card: \n\n" + name + "\n" + phone1 + "\n" 
+            + phone2 + "\n" + email + "\n" + company);
+ }
+ 
+  </script>
+ 
+ </head>
+ <body>
+ 
+ <xml id="myBiz" style="display: none;">
+ 
+ <companynames>
+ 
+  <companyname>
+    <name>Satish B</name>
+    <phone type="home" primary="call me">(91) 9844552841</phone>
+    <phone type="work">(91) 9844119841</phone>
+    <email>satish@technotip.org</email>
+    <company>Technotip IT Solutions</company>
+  </companyname>
+ 
+  <companyname>
+    <name>Shwetha</name>
+    <phone type="home">(91) 123456789</phone>
+    <phone type="work" primary="call me">(91) 987654321</phone>
+    <email>shwetha@microsoft.com</email>
+    <company>Microsoft</company>
+  </companyname>
+ 
+</companynames>
+ 
+ 
+ </xml>
+ 
+ <a href="javascript:display1()">Satish: Technotip IT Solutions</a><br />
+ <a href="javascript:display2()">Shwetha: Microsoft</a>
+ 
+ </body>
+</html>
